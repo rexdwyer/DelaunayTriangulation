@@ -1,0 +1,34 @@
+This code for Delaunay triangulations (Voronoi diagrams) is very old
+now, but I occasionally get requests for it. 
+
+This program is based on
+
+Dwyer, R.A., A faster divide-and-conquer algorithm for constructing
+Delaunay triangulations. Algorithmica 2(2):137-151, 1987.
+
+This was my very first paper.  Oddly, I can't seem to find tex source
+(though I did find the tex source for other papers nearly as old.)
+You can buy the conference version (2nd Symposium on Computational
+Geometry -- ACM) for less than the Algorithmica version (Springer).
+This work is mentioned in the Wikipedia entry for "Delaunay
+Triangulation".
+
+There's a short int in there that may need to be changed to an
+int. Back when, I was optimizing for what now seems like a small
+number of points.  Try to imagine that it took minutes to
+run my largest simulations, which I think involved 32K or 64K points.
+(I don't recall, but I may have been up against memory limitations, too!)
+
+I'm including a review of several Delaunay triangulation algorithms written
+by Peter Su and Scot Drysdale that showed that this was the ONE AND
+ONLY VERY BEST algorithm when the survey was written.
+
+There's also a little postscript file with a picture.  I believe this
+picture was on my business cards when I was at NC State.
+
+That's all I have to say about that, but if you have questions, you
+can contact me at rex.dwyer@pobox.com.  In fact, if you use this code,
+why not drop me a line to let me know?
+
+
+
