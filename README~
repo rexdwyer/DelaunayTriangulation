@@ -21,8 +21,7 @@ run my largest simulations, which I think involved 32K or 64K points.
 
 I'm including a review of several Delaunay triangulation algorithms written
 by Peter Su and Scot Drysdale that showed that this was the ONE AND
-ONLY VERY BEST algorithm when the survey was written.  This was later confirmed
-by JR Shewchuk, http://www.cs.cmu.edu/~quake/tripaper/triangle2.html
+ONLY VERY BEST algorithm when the survey was written.
 
 There's also a little postscript file with a picture.  I believe this
 picture was on my business cards when I was at NC State.
